@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <rect x="200" y="60" width="240" height="280" rx="8" stroke="currentColor" stroke-width="2"/>
+  <path d="M200 110h240M200 170h240M200 240h240" stroke="currentColor"/>
+  <circle cx="280" cy="200" r="16" stroke="currentColor" stroke-width="2"/>
+  <circle cx="280" cy="200" r="6" fill="currentColor" fill-opacity=".4"/>
+  <path d="M200 60H80M280 184H80M200 240H80" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="64">Stratum corneum</text>
+    <text x="20" y="188">Keratinocit</text>
+    <text x="20" y="244">Melanocit / melanin</text>
+    <text x="460" y="200">Bazalna membrana</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="64">Stratum corneum</text>
+    <text x="20" y="188">Keratinocyte</text>
+    <text x="20" y="244">Melanocyte / melanin</text>
+    <text x="460" y="200">Basement membrane</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <rect width="640" height="420" rx="10" stroke="currentColor" stroke-opacity=".25"/>
+  <path d="M268 86c-38 18-58 70-18 112 8 10 18 18 38 40 20-22 30-30 38-40 40-42 20-94-18-112-10 16-22 16-40 0z" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M270 150h56M270 176h56" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M298 86V62c0-16 22-16 22 0v18" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M248 118C210 110 186 128 170 160M348 118c38-8 62 10 78 42" stroke="currentColor" stroke-width="2.2"/>
+  <path d="M252 250c-30 18-40 48-18 78M344 250c30 18 40 48 18 78" stroke="currentColor" stroke-width="2.2"/>
+  <circle cx="284" cy="158" r="3" fill="currentColor"/>
+  <circle cx="312" cy="158" r="3" fill="currentColor"/>
+  <circle cx="284" cy="188" r="3" fill="currentColor"/>
+  <circle cx="312" cy="188" r="3" fill="currentColor"/>
+  <path d="M170 160H86M470 160h84M298 62H86M344 328h140" stroke="currentColor" stroke-opacity=".55" stroke-width="1"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="58">Aorta</text>
+    <text x="20" y="164">V. cava</text>
+    <text x="490" y="156">Pluna art.</text>
+    <text x="20" y="200">D. pretkomora</text>
+    <text x="330" y="200">L. pretkomora</text>
+    <text x="20" y="232">D. komora</text>
+    <text x="330" y="232">L. komora</text>
+    <text x="500" y="332">Arterije / vene</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="58">Aorta</text>
+    <text x="20" y="164">V. cava</text>
+    <text x="490" y="156">Pulm. art.</text>
+    <text x="20" y="200">R. atrium</text>
+    <text x="330" y="200">L. atrium</text>
+    <text x="20" y="232">R. ventricle</text>
+    <text x="330" y="232">L. ventricle</text>
+    <text x="500" y="332">Arteries / veins</text>
+  </g>
+</svg>

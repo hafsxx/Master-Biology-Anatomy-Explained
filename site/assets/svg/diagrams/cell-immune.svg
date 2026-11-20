@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <circle cx="200" cy="200" r="70" stroke="currentColor" stroke-width="2.2"/>
+  <circle cx="200" cy="200" r="22" stroke="currentColor"/>
+  <path d="M160 150c-30-20-60 0-50 30M150 200H90M170 250c-20 30 10 50 40 30" stroke="currentColor" stroke-width="2"/>
+  <rect x="360" y="140" width="160" height="120" rx="10" stroke="currentColor" stroke-width="2"/>
+  <path d="M380 180h120M380 210h120M380 240h80" stroke="currentColor"/>
+  <path d="M270 200h90" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="160" y="120">T limfocit</text>
+    <text x="20" y="204">Receptor</text>
+    <text x="380" y="130">B / plazma elija</text>
+    <text x="380" y="280">Antitijela (Ig)</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="160" y="120">T lymphocyte</text>
+    <text x="20" y="204">Receptor</text>
+    <text x="380" y="130">B / plasma cell</text>
+    <text x="380" y="280">Antibodies (Ig)</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <path d="M80 280h480" stroke="currentColor" stroke-width="2"/>
+  <path d="M120 280V160M200 280V150M280 280V140M360 280V155M440 280V148M520 280V162" stroke="currentColor" stroke-width="3"/>
+  <ellipse cx="200" cy="128" rx="18" ry="10" stroke="currentColor"/>
+  <rect x="250" y="300" width="80" height="50" rx="6" stroke="currentColor"/>
+  <path d="M200 118V70M290 300H80" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="160" y="60">Mikrovili</text>
+    <text x="20" y="290">Apikalna membrana</text>
+    <text x="20" y="330">Tight junction</text>
+    <text x="350" y="340">Mitohondrije / Na+/K+ ATPaza</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="160" y="60">Microvilli</text>
+    <text x="20" y="290">Apical membrane</text>
+    <text x="20" y="330">Tight junction</text>
+    <text x="350" y="340">Mitochondria / Na+/K+ ATPase</text>
+  </g>
+</svg>

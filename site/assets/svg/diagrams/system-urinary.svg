@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="250" cy="140" rx="50" ry="70" stroke="currentColor" stroke-width="2.4"/>
+  <ellipse cx="390" cy="140" rx="50" ry="70" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M250 210c0 40 20 70 70 90M390 210c0 40-20 70-70 90" stroke="currentColor" stroke-width="3"/>
+  <ellipse cx="320" cy="330" rx="48" ry="28" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M320 358v30" stroke="currentColor" stroke-width="4"/>
+  <path d="M200 140H80M440 140h120M272 330H80" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="144">Bubreg</text>
+    <text x="470" y="144">Nefroni</text>
+    <text x="20" y="250">Ureter</text>
+    <text x="20" y="334">Mjehur</text>
+    <text x="300" y="400">Uretra</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="144">Kidney</text>
+    <text x="470" y="144">Nephrons</text>
+    <text x="20" y="250">Ureter</text>
+    <text x="20" y="334">Bladder</text>
+    <text x="300" y="400">Urethra</text>
+  </g>
+</svg>

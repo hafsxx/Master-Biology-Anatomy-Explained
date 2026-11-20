@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <circle cx="280" cy="210" r="70" stroke="currentColor" stroke-width="2"/>
+  <circle cx="280" cy="210" r="28" stroke="currentColor" stroke-width="2"/>
+  <path d="M308 190l40-30 30 10M252 190l-40-30-30 10M308 230l40 30 30-8M252 230l-40 30-30-8" stroke="currentColor" stroke-width="2.2"/>
+  <path d="M210 210H80M280 140V60" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="240" y="50">Glomerul</text>
+    <text x="20" y="214">Kapilara</text>
+    <text x="360" y="150">Pedikuli (no~ice)</text>
+    <text x="360" y="280">Filtraciona pukotina</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="240" y="50">Glomerulus</text>
+    <text x="20" y="214">Capillary</text>
+    <text x="360" y="150">Foot processes</text>
+    <text x="360" y="280">Filtration slit</text>
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AnatomyExplained — bilingual anatomy quiz and encyclopedia for ages 15–20.">
+    <title>AnatomyExplained | Pulse Arena</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/svg/logo-heart-brain.svg" type="image/svg+xml">
+</head>
+<body data-theme="dark">
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="brand">
+            <img class="brand-logo" src="assets/svg/logo-heart-brain.svg" alt="Half heart, half brain" width="48" height="48">
+            <div>
+                <p class="brand-kicker">AnatomyExplained.com</p>
+                <h1>Master Biology</h1>
+            </div>
+        </div>
+        <div class="controls">
+            <label class="sr-only" for="langSelect">Language</label>
+            <select id="langSelect">
+                <option value="bs">Bosanski</option>
+                <option value="en">English</option>
+            </select>
+            <button type="button" id="themeBtn" class="ghost-btn">Light</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="pill-nav" aria-label="Primary">
+            <button type="button" id="nav-quiz" class="nav-btn active" data-tab="quiz"></button>
+            <button type="button" id="nav-study" class="nav-btn" data-tab="study"></button>
+        </nav>
+
+        <section id="quiz-view" class="view-panel active" aria-live="polite">
+            <div class="kahoot-container arena-card hud-frame">
+                <div id="quizStartScreen" class="quiz-start-screen">
+                    <img class="hero-art" src="assets/svg/logo-heart-brain.svg" alt="Half heart, half brain">
+                    <h2 id="startTitle"></h2>
+                    <p id="startDesc"></p>
+                    <button type="button" class="start-btn" id="startBtnText"></button>
+                </div>
+
+                <div id="quizActiveScreen" class="quiz-active-screen">
+                    <div class="top-stats">
+                        <div class="stat-chip"><span id="txt-score"></span>: <span id="scoreVal">0</span></div>
+                        <div class="streak-pill">streak <span id="streakVal">0</span></div>
+                    </div>
+                    <div class="progress-track" aria-hidden="true">
+                        <div id="progressBar" class="progress-bar"></div>
+                    </div>
+                    <p id="qProgress" class="q-progress"></p>
+                    <div class="timer-badge" id="timerBox">15</div>
+                    <div class="question-box" id="qText"></div>
+                    <div class="answers-grid" id="ansGrid"></div>
+                    <div class="feedback-box" id="feedbackBox"></div>
+                    <button type="button" class="action-btn" id="nextQBtn"></button>
+                </div>
+
+                <div id="quizResultsScreen" class="quiz-results-screen">
+                    <img class="hero-art small" src="assets/svg/logo-heart-brain.svg" alt="">
+                    <h2 id="resultsTitle"></h2>
+                    <p id="resultsDesc"></p>
+                    <div class="results-grid">
+                        <div class="result-stat">
+                            <span id="txt-final-score"></span>
+                            <strong id="finalScore">0</strong>
+                        </div>
+                        <div class="result-stat">
+                            <span id="txt-best-streak"></span>
+                            <strong id="finalStreak">0</strong>
+                        </div>
+                        <div class="result-stat">
+                            <span id="txt-accuracy"></span>
+                            <strong id="finalAccuracy">0%</strong>
+                        </div>
+                    </div>
+                    <button type="button" class="start-btn" id="replayBtn"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="study-view" class="view-panel">
+            <header class="study-head">
+                <h2 id="txt-encyclopedia-title"></h2>
+                <p id="txt-encyclopedia-sub"></p>
+            </header>
+            <div class="systems-list" id="systemsList"></div>
+            <article class="detail-view hud-frame" id="detailView" hidden>
+                <div class="detail-header">
+                    <div class="detail-title-row">
+                        <h2 id="detTitle"></h2>
+                    </div>
+                    <button type="button" class="close-btn" id="closeBtnText"></button>
+                </div>
+                <p class="detail-tldr" id="detTldr"></p>
+                <p class="detail-hook" id="detHook"></p>
+                <p class="detail-mnemonic" id="detMnemonic"></p>
+
+                <div class="split-row">
+                    <figure class="diagram-panel">
+                        <figcaption class="diagram-cap" id="capOverview"></figcaption>
+                        <div class="diagram-mount" id="overviewMount"></div>
+                    </figure>
+                    <div class="split-text">
+                        <div class="detail-block">
+                            <h4 id="hOrgans"></h4>
+                            <ul id="listOrgans"></ul>
+                        </div>
+                        <div class="detail-block">
+                            <h4 id="hFunctions"></h4>
+                            <ul id="listFunctions"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-row">
+                    <figure class="diagram-panel">
+                        <figcaption class="diagram-cap" id="capCell"></figcaption>
+                        <div class="diagram-mount" id="cellMount"></div>
+                    </figure>
+                    <div class="split-text">
+                        <div class="detail-block">
+                            <h4 id="hCell"></h4>
+                            <p class="cell-type" id="detCellType"></p>
+                            <ul id="listCell"></ul>
+                        </div>
+                        <div class="detail-block">
+                            <h4 id="hIllnesses"></h4>
+                            <ul id="listIllnesses"></ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p id="footerNote"></p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <circle cx="180" cy="160" r="46" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="180" cy="160" r="14" stroke="currentColor"/>
+  <path d="M140 130c-30-20-50-8-54 16M130 160c-40 0-50 18-40 36M150 196c-16 28 4 46 28 40" stroke="currentColor" stroke-width="2"/>
+  <path d="M226 160h220" stroke="currentColor" stroke-width="8"/>
+  <path d="M260 160c0-18 10-18 10 0M300 160c0-18 10-18 10 0M340 160c0-18 10-18 10 0M380 160c0-18 10-18 10 0" stroke="currentColor" stroke-width="2"/>
+  <path d="M446 160c20 0 40 16 50 40" stroke="currentColor" stroke-width="3"/>
+  <path d="M180 114V50M226 160H80M400 142V70" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="160" y="42">Jezgro / soma</text>
+    <text x="20" y="120">Dendriti</text>
+    <text x="20" y="164">Akson</text>
+    <text x="360" y="62">Mijelin</text>
+    <text x="480" y="220">Sinapsa</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="160" y="42">Nucleus / soma</text>
+    <text x="20" y="120">Dendrites</text>
+    <text x="20" y="164">Axon</text>
+    <text x="360" y="62">Myelin</text>
+    <text x="480" y="220">Synapse</text>
+  </g>
+</svg>

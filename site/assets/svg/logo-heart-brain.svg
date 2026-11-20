@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="heart" x1="0" y1="20" x2="64" y2="110">
+      <stop stop-color="#ff4d6d"/>
+      <stop offset="1" stop-color="#ff8fab"/>
+    </linearGradient>
+    <linearGradient id="brain" x1="64" y1="16" x2="120" y2="100">
+      <stop stop-color="#3ee0c5"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <clipPath id="left">
+      <rect x="0" y="0" width="64" height="128"/>
+    </clipPath>
+    <clipPath id="right">
+      <rect x="64" y="0" width="64" height="128"/>
+    </clipPath>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" stroke="#3ee0c5" stroke-opacity="0.45" stroke-width="1.5"/>
+  <path clip-path="url(#left)" fill="url(#heart)" d="M64 108C28 80 18 58 18 42c0-12 10-22 22-22 8 0 16 4 24 14 0-6 2-10 4-14H64v88z"/>
+  <path clip-path="url(#left)" fill="none" stroke="#ffd0dc" stroke-width="2" d="M30 52h18M34 64h22"/>
+  <path clip-path="url(#right)" fill="url(#brain)" d="M64 20c22-6 46 6 46 28 0 10-4 16-4 24 0 18-16 32-42 36V20z"/>
+  <path clip-path="url(#right)" fill="none" stroke="#042f2e" stroke-width="2.2" stroke-linecap="round" d="M78 34c8 2 14 8 16 16M76 52c10 2 14 10 12 18M74 70c9 4 14 10 10 16M88 40c6 8 6 16 2 24"/>
+  <line x1="64" y1="16" x2="64" y2="112" stroke="#c6ff4d" stroke-width="2" stroke-dasharray="3 4"/>
+  <circle cx="64" cy="64" r="3" fill="#c6ff4d"/>
+</svg>

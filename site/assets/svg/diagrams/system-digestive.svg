@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="320" cy="48" rx="28" ry="16" stroke="currentColor" stroke-width="2"/>
+  <path d="M320 64v36" stroke="currentColor" stroke-width="6"/>
+  <ellipse cx="320" cy="140" rx="48" ry="32" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M320 172c40 16 70 8 90-10M320 172c-8 40 10 70 50 90" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+  <path d="M370 262c30 20 20 50-10 70" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="470" cy="150" rx="26" ry="18" stroke="currentColor"/>
+  <path d="M444 150H370" stroke="currentColor" stroke-width="2"/>
+  <circle cx="430" cy="230" r="22" stroke="currentColor"/>
+  <path d="M320 48H90M272 140H80M430 128V70M430 252h120" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="52">Usta</text>
+    <text x="20" y="144">}eludac</text>
+    <text x="20" y="230">Tanko crijevo</text>
+    <text x="20" y="340">Debelo crijevo</text>
+    <text x="450" y="64">Jetra / ~u</text>
+    <text x="560" y="256">Pankreas</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="52">Mouth</text>
+    <text x="20" y="144">Stomach</text>
+    <text x="20" y="230">Small intestine</text>
+    <text x="20" y="340">Large intestine</text>
+    <text x="450" y="64">Liver / bile</text>
+    <text x="560" y="256">Pancreas</text>
+  </g>
+</svg>

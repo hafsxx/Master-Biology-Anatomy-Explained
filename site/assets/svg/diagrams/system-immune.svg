@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <circle cx="180" cy="120" r="36" stroke="currentColor" stroke-width="2"/>
+  <circle cx="320" cy="80" r="28" stroke="currentColor" stroke-width="2"/>
+  <ellipse cx="460" cy="140" rx="40" ry="28" stroke="currentColor" stroke-width="2"/>
+  <path d="M180 156v80M140 200h80M320 108v50M460 168v40" stroke="currentColor" stroke-width="2"/>
+  <circle cx="200" cy="280" r="18" stroke="currentColor"/><circle cx="260" cy="300" r="14" stroke="currentColor"/><circle cx="330" cy="270" r="16" stroke="currentColor"/>
+  <path d="M180 84H70M320 52H70M460 112h120" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="88">Koatana sr~</text>
+    <text x="20" y="56">Timus</text>
+    <text x="500" y="108">Slezena</text>
+    <text x="20" y="300">Limfni vorovi</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="88">Bone marrow</text>
+    <text x="20" y="56">Thymus</text>
+    <text x="500" y="108">Spleen</text>
+    <text x="20" y="300">Lymph nodes</text>
+  </g>
+</svg>

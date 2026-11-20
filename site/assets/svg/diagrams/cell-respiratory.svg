@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="250" cy="210" rx="120" ry="80" stroke="currentColor" stroke-width="1.8"/>
+  <path d="M250 130C200 170 180 230 210 280" stroke="currentColor" stroke-width="2"/>
+  <rect x="400" y="140" width="90" height="70" rx="8" stroke="currentColor" stroke-width="2"/>
+  <path d="M370 210h30M445 140V90" stroke="currentColor" stroke-opacity=".55"/>
+  <circle cx="210" cy="200" r="4" fill="currentColor"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="40" y="90">Alveolarni zrak</text>
+    <text x="40" y="210">Pneumocit I (difuzija)</text>
+    <text x="40" y="340">Kapilara</text>
+    <text x="500" y="84">Pneumocit II</text>
+    <text x="500" y="210">Surfaktant</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="40" y="90">Alveolar air</text>
+    <text x="40" y="210">Type I (diffusion)</text>
+    <text x="40" y="340">Capillary</text>
+    <text x="500" y="84">Type II cell</text>
+    <text x="500" y="210">Surfactant</text>
+  </g>
+</svg>

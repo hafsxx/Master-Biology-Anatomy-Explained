@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <rect x="120" y="140" width="400" height="140" stroke="currentColor" stroke-width="2"/>
+  <path d="M120 180h400M120 220h400M120 250h400" stroke="currentColor" stroke-width="2.4"/>
+  <rect x="200" y="80" width="40" height="240" stroke="currentColor" stroke-opacity=".5"/>
+  <path d="M120 140H40M200 80V40" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="144">Sarkomera</text>
+    <text x="180" y="32">T-tubul</text>
+    <text x="20" y="184">Aktin (tanki)</text>
+    <text x="20" y="224">Miozin (debeli)</text>
+    <text x="20" y="254">SR / Ca2+</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="144">Sarcomere</text>
+    <text x="180" y="32">T-tubule</text>
+    <text x="20" y="184">Actin (thin)</text>
+    <text x="20" y="224">Myosin (thick)</text>
+    <text x="20" y="254">SR / Ca2+</text>
+  </g>
+</svg>

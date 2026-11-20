@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="160" cy="210" rx="18" ry="14" stroke="currentColor" stroke-width="2"/>
+  <path d="M178 210h90" stroke="currentColor" stroke-width="6"/>
+  <path d="M268 210c20 8 40 6 70 0M268 210c20-8 50-20 90-8" stroke="currentColor" stroke-width="2"/>
+  <circle cx="460" cy="210" r="70" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="460" cy="210" r="40" stroke="currentColor" stroke-width="2"/>
+  <circle cx="460" cy="210" r="16" fill="currentColor" fill-opacity=".2" stroke="currentColor"/>
+  <path d="M160 196V120M268 210h40M390 210H330" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="120" y="110">Akrosom</text>
+    <text x="20" y="214">Srednji dio / mitohondrije</text>
+    <text x="280" y="200">Bi</text>
+    <text x="430" y="120">Oocit</text>
+    <text x="540" y="180">Zona pellucida</text>
+    <text x="540" y="250">Jezgro</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="120" y="110">Acrosome</text>
+    <text x="20" y="214">Midpiece / mitochondria</text>
+    <text x="280" y="200">Flagellum</text>
+    <text x="430" y="120">Oocyte</text>
+    <text x="540" y="180">Zona pellucida</text>
+    <text x="540" y="250">Nucleus</text>
+  </g>
+</svg>

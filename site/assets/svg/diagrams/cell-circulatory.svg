@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="320" cy="210" rx="92" ry="46" stroke="currentColor" stroke-width="2.6"/>
+  <ellipse cx="320" cy="210" rx="58" ry="22" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="278" cy="198" r="18" stroke="currentColor" stroke-width="1.4" fill="currentColor" fill-opacity=".08"/>
+  <circle cx="278" cy="198" r="6" fill="currentColor" fill-opacity=".35"/>
+  <path d="M228 210H80M412 210h148M278 180V72" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="214">Plazma membrana</text>
+    <text x="430" y="214">Bikonkavni disk</text>
+    <text x="200" y="64">Hemoglobin (Fe2+)</text>
+    <text x="250" y="320">Nema jezgra (sisari)</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="214">Plasma membrane</text>
+    <text x="430" y="214">Biconcave disc</text>
+    <text x="200" y="64">Hemoglobin (Fe2+)</text>
+    <text x="250" y="320">Anucleate (mammals)</text>
+  </g>
+</svg>

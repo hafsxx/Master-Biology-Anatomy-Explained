@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="320" cy="70" rx="40" ry="32" stroke="currentColor" stroke-width="2.2"/>
+  <path d="M320 102v150" stroke="currentColor" stroke-width="10"/>
+  <path d="M300 130h40M296 160h48M300 190h40" stroke="currentColor" stroke-width="3"/>
+  <path d="M250 130H200l-30 80M390 130h50l30 80" stroke="currentColor" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M220 250v90M420 250v90" stroke="currentColor" stroke-width="10"/>
+  <rect x="270" y="250" width="100" height="40" rx="6" stroke="currentColor"/>
+  <path d="M280 70H90M200 210H70M320 40V12" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="74">Lobanja</text>
+    <text x="300" y="16">Kima</text>
+    <text x="20" y="214">Rebra / sternum</text>
+    <text x="20" y="360">Apendikularni skelet</text>
+    <text x="390" y="274">Zglob / karlica</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="74">Skull</text>
+    <text x="300" y="16">Spine</text>
+    <text x="20" y="214">Ribs / sternum</text>
+    <text x="20" y="360">Appendicular skeleton</text>
+    <text x="390" y="274">Joint / pelvis</text>
+  </g>
+</svg>

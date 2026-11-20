@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <path d="M320 40v70" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+  <path d="M292 86h56" stroke="currentColor" stroke-width="3"/>
+  <path d="M320 110c-18 12-22 28-8 40M320 110c18 12 22 28 8 40" stroke="currentColor" stroke-width="3"/>
+  <path d="M312 150c-70 20-110 70-118 140M328 150c70 20 110 70 118 140" stroke="currentColor" stroke-width="2.4"/>
+  <ellipse cx="210" cy="310" rx="70" ry="48" stroke="currentColor" stroke-width="2"/>
+  <ellipse cx="430" cy="310" rx="70" ry="48" stroke="currentColor" stroke-width="2"/>
+  <circle cx="188" cy="300" r="7" stroke="currentColor"/><circle cx="214" cy="318" r="6" stroke="currentColor"/><circle cx="236" cy="298" r="5" stroke="currentColor"/>
+  <path d="M320 40H90M194 150H80M140 310H40M500 310h100" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="44">Grkljan / duanik</text>
+    <text x="20" y="154">Bronh</text>
+    <text x="20" y="314">Alveole</text>
+    <text x="510" y="314">Pluno krilo</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="44">Larynx / trachea</text>
+    <text x="20" y="154">Bronchus</text>
+    <text x="20" y="314">Alveoli</text>
+    <text x="510" y="314">Lung</text>
+  </g>
+</svg>

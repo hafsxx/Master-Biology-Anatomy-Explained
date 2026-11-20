@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="320" cy="70" rx="50" ry="22" stroke="currentColor" stroke-width="2"/>
+  <circle cx="320" cy="70" r="8" fill="currentColor" fill-opacity=".35"/>
+  <path d="M320 92v40" stroke="currentColor" stroke-width="2"/>
+  <ellipse cx="320" cy="150" rx="28" ry="18" stroke="currentColor" stroke-width="2"/>
+  <path d="M292 160c-40 30-40 70 0 90M348 160c40 30 40 70 0 90" stroke="currentColor" stroke-width="2"/>
+  <circle cx="250" cy="250" r="22" stroke="currentColor"/>
+  <circle cx="390" cy="250" r="22" stroke="currentColor"/>
+  <ellipse cx="320" cy="310" rx="36" ry="20" stroke="currentColor"/>
+  <path d="M270 70H80M320 40V12M218 250H80M430 250h130" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="74">Hipotalamus</text>
+    <text x="300" y="16">Hipofiza</text>
+    <text x="20" y="254">`titnjaa</text>
+    <text x="470" y="254">Nadbubre~na</text>
+    <text x="280" y="350">Pankreas (ostrvca)</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="74">Hypothalamus</text>
+    <text x="300" y="16">Pituitary</text>
+    <text x="20" y="254">Thyroid</text>
+    <text x="470" y="254">Adrenal</text>
+    <text x="280" y="350">Pancreas (islets)</text>
+  </g>
+</svg>

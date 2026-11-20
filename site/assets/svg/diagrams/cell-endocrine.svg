@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <circle cx="300" cy="210" r="90" stroke="currentColor" stroke-width="2.2"/>
+  <circle cx="300" cy="210" r="28" stroke="currentColor"/>
+  <rect x="250" y="80" width="100" height="40" rx="6" stroke="currentColor"/>
+  <circle cx="430" cy="160" r="16" fill="currentColor" fill-opacity=".25" stroke="currentColor"/>
+  <circle cx="450" cy="230" r="16" fill="currentColor" fill-opacity=".25" stroke="currentColor"/>
+  <path d="M300 182V80M390 160h80" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="240" y="70">Jezgro</text>
+    <text x="20" y="214">Beta-elija</text>
+    <text x="480" y="164">Granule inzulina</text>
+    <text x="480" y="234">GLUT2 / K+ kanal</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="240" y="70">Nucleus</text>
+    <text x="20" y="214">Beta cell</text>
+    <text x="480" y="164">Insulin granules</text>
+    <text x="480" y="234">GLUT2 / K+ channel</text>
+  </g>
+</svg>

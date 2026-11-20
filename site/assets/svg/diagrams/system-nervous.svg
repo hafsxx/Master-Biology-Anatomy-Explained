@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <ellipse cx="320" cy="90" rx="70" ry="50" stroke="currentColor" stroke-width="2.4"/>
+  <path d="M300 130c-8 10-6 18 8 22M340 136c10 8 8 16-4 22" stroke="currentColor" stroke-width="2"/>
+  <ellipse cx="320" cy="168" rx="22" ry="14" stroke="currentColor"/>
+  <path d="M320 182v150" stroke="currentColor" stroke-width="10"/>
+  <path d="M320 220H240M320 260h90M320 300H250" stroke="currentColor" stroke-width="3"/>
+  <path d="M250 90H80M320 40V16M410 260h140" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="20" y="94">Cerebrum</text>
+    <text x="300" y="18">Korteks</text>
+    <text x="20" y="170">Cerebellum</text>
+    <text x="20" y="210">Stablo</text>
+    <text x="20" y="330">Kimena mo~dina</text>
+    <text x="460" y="256">Periferni ~ivac</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="20" y="94">Cerebrum</text>
+    <text x="300" y="18">Cortex</text>
+    <text x="20" y="170">Cerebellum</text>
+    <text x="20" y="210">Brainstem</text>
+    <text x="20" y="330">Spinal cord</text>
+    <text x="460" y="256">Peripheral nerve</text>
+  </g>
+</svg>

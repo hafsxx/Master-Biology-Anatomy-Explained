@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <rect x="180" y="80" width="280" height="220" rx="8" stroke="currentColor" stroke-width="2"/>
+  <circle cx="250" cy="160" r="16" stroke="currentColor" stroke-width="2"/>
+  <circle cx="330" cy="200" r="16" stroke="currentColor" stroke-width="2"/>
+  <circle cx="400" cy="150" r="16" stroke="currentColor" stroke-width="2"/>
+  <path d="M266 160h48M346 200h38M250 176v40M330 184V120M400 166v50" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M250 144V50M180 80H70" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="220" y="40">Osteocit u lakuni</text>
+    <text x="20" y="84">Mineralni matriks</text>
+    <text x="20" y="200">Canaliculi</text>
+    <text x="20" y="340">Haversov kanal</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="220" y="40">Osteocyte in lacuna</text>
+    <text x="20" y="84">Mineral matrix</text>
+    <text x="20" y="200">Canaliculi</text>
+    <text x="20" y="340">Haversian canal</text>
+  </g>
+</svg>

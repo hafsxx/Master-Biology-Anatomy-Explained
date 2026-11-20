@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <path d="M200 80h80v40H200zM360 80h80v40H360z" stroke="currentColor" stroke-width="2"/>
+  <path d="M240 120v40M400 120v40" stroke="currentColor" stroke-width="6"/>
+  <path d="M160 160h320" stroke="currentColor" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 200h80v90H180zM300 210h80v70H300zM430 190c40 10 50 50 20 80-30 8-50-10-50-40 0-20 10-40 30-40z" stroke="currentColor" stroke-width="2"/>
+  <path d="M160 160H70M300 245H70M470 190h120" stroke="currentColor" stroke-opacity=".55"/>
+  <g class="lang-bs" fill="currentColor" font-size="12">
+    <text x="200" y="70">Tetiva</text>
+    <text x="20" y="164">Skeletni miai</text>
+    <text x="20" y="250">Glatki miai</text>
+    <text x="500" y="186">Srani miai</text>
+  </g>
+  <g class="lang-en" fill="currentColor" font-size="12">
+    <text x="200" y="70">Tendon</text>
+    <text x="20" y="164">Skeletal muscle</text>
+    <text x="20" y="250">Smooth muscle</text>
+    <text x="500" y="186">Cardiac muscle</text>
+  </g>
+</svg>
