@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/upgrade.css">
     <link rel="icon" href="assets/svg/logo-heart-brain.svg" type="image/svg+xml">
 </head>
 <body data-theme="dark">
@@ -30,6 +31,7 @@
                 <option value="en">English</option>
             </select>
             <button type="button" id="themeBtn" class="ghost-btn">Light</button>
+            <button type="button" id="accountBtn" class="account-btn" aria-haspopup="dialog"><span id="accountAvatar" aria-hidden="true">👤</span><span id="accountLabel">Prijava</span></button>
         </div>
     </header>
 
@@ -43,6 +45,7 @@
         <section id="path-view" class="view-panel active" aria-live="polite">
             <div class="path-welcome">
                 <div><p class="eyebrow" id="path-eyebrow">YOUR ANATOMY JOURNEY</p><h2 id="path-title">Small lessons. Serious brainpower.</h2><p id="path-subtitle">Build your anatomy knowledge one mission at a time.</p></div>
+                <div class="hero-3d viewer3d" id="heroModel" aria-hidden="true"></div>
                 <div class="level-orb"><span>LEVEL</span><strong id="levelVal">1</strong></div>
             </div>
             <div class="game-stats">
@@ -51,12 +54,11 @@
                 <div class="game-stat"><span>❤️ ENERGY</span><strong>∞</strong><small id="energyCaption">Practice at your pace</small></div>
             </div>
             <div class="path-section-head"><div><p class="eyebrow" id="unitEyebrow">YOUR COURSE</p><h2 id="unitTitle">The body systems</h2></div><span class="unit-count" id="unitCount">0 / 11 complete</span></div>
-            <div class="path-layout"><div class="lesson-path" id="lessonPath"></div><aside class="side-quests"><div class="quest-card"><span class="quest-icon">🎯</span><p class="eyebrow" id="questEyebrow">DAILY QUEST</p><h3 id="questTitle">Earn 50 XP today</h3><p id="questDesc">Complete lessons and quick challenges to fill your progress bar.</p><div class="quest-progress"><i id="questProgress"></i></div><strong id="questValue">0 / 50 XP</strong></div><div class="quest-card badge-card"><span class="quest-icon">🏅</span><p class="eyebrow" id="badgeEyebrow">COLLECTION</p><h3 id="badgeTitle">Milestone badges</h3><div class="badge-row" id="badgeRow"><span>🧠</span><span>🫀</span><span>🦴</span></div><p id="badgeDesc">Complete lessons to unlock your first badge.</p></div><button class="side-practice" id="pathPractice" type="button">⚡ Quick practice</button></aside></div>
+            <div class="path-layout"><div class="lesson-path" id="lessonPath"></div><aside class="side-quests"><div class="quest-card"><span class="quest-icon">🎯</span><p class="eyebrow" id="questEyebrow">DAILY QUEST</p><h3 id="questTitle">Earn 50 XP today</h3><p id="questDesc">Complete lessons and quick challenges to fill your progress bar.</p><div class="quest-progress"><i id="questProgress"></i></div><strong id="questValue">0 / 50 XP</strong></div><div class="quest-card badge-card"><span class="quest-icon">🏅</span><p class="eyebrow" id="badgeEyebrow">COLLECTION</p><h3 id="badgeTitle">Milestone badges</h3><div class="badge-row" id="badgeRow"><span>🧠</span><span>🫀</span><span>🦴</span></div><p id="badgeDesc">Complete lessons to unlock your first badge.</p></div><div class="quest-card board-card"><span class="quest-icon">🏆</span><p class="eyebrow" id="boardEyebrow">LEADERBOARD</p><h3 id="boardTitle">Rang lista</h3><ol class="board-list" id="boardList"></ol><p class="board-note" id="boardNote"></p></div><button class="side-practice" id="pathPractice" type="button">⚡ Quick practice</button></aside></div>
             <article class="lesson-panel" id="lessonPanel" hidden>
                 <div class="lesson-panel-top"><span class="lesson-tag" id="lessonTag">LESSON 01</span><button type="button" class="close-btn" id="lessonClose">×</button></div>
                 <h2 id="lessonTitle"></h2><p class="lesson-intro" id="lessonIntro"></p><div class="lesson-fact"><span>🧬</span><div><strong id="factHeading">Remember this</strong><p id="lessonFact"></p></div></div>
                 <h3 id="organsHeading">Key structures</h3><div class="organ-chips" id="lessonOrgans"></div>
-                <div class="lesson-challenge"><p class="eyebrow" id="challengeEyebrow">QUICK CHECK</p><h3 id="challengeQuestion">Which system are you learning?</h3><div class="challenge-options" id="challengeOptions"></div><p class="challenge-feedback" id="challengeFeedback" aria-live="polite"></p></div>
                 <div class="lesson-footer"><span id="lessonReward">+20 XP</span><button type="button" class="start-btn" id="completeLesson">Complete lesson</button></div>
             </article>
         </section>
@@ -126,6 +128,16 @@
                 <p class="detail-hook" id="detHook"></p>
                 <p class="detail-mnemonic" id="detMnemonic"></p>
 
+                <div class="atlas-3d">
+                    <div class="viewer3d atlas-viewer" id="atlasViewer"></div>
+                    <div class="atlas-side">
+                        <h4 id="atlasHeading">3D model</h4>
+                        <p class="atlas-hint" id="atlasHint"></p>
+                        <div class="atlas-parts" id="atlasParts"></div>
+                        <p class="atlas-selected" id="atlasSelected" aria-live="polite"></p>
+                    </div>
+                </div>
+
                 <div class="split-row">
                     <figure class="diagram-panel">
                         <figcaption class="diagram-cap" id="capOverview"></figcaption>
@@ -164,10 +176,15 @@
         </section>
     </main>
 
+    <div id="authRoot"></div>
+
     <footer class="site-footer">
         <p id="footerNote"></p>
     </footer>
 
+    <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+    </script>
     <script type="module" src="js/app.js"></script>
 </body>
 </html>

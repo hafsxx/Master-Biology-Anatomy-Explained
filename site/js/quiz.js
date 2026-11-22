@@ -1,7 +1,7 @@
 export const QUESTIONS_PER_ROUND = 10;
 export const SECONDS_PER_QUESTION = 15;
 
-const baseQuestions = {
+export const baseQuestions = {
     bs: [
         { q: "Koja je glavna uloga eritrocita u cirkulatornom sistemu?", a: ["Transport kisika", "Odbrana od virusa", "Grušanje krvi", "Sinteza hormona"], c: 0 },
         { q: "Koji organ štiti mozak od fizičkih povreda?", a: ["Lobanja (skeletni sistem)", "Kičmena moždina", "Rebra", "Grkljan"], c: 0 },
