@@ -35,9 +35,31 @@
 
     <main class="container">
         <nav class="pill-nav" aria-label="Primary">
-            <button type="button" id="nav-quiz" class="nav-btn active" data-tab="quiz"></button>
+            <button type="button" id="nav-path" class="nav-btn active" data-tab="path">Learning path</button>
+            <button type="button" id="nav-quiz" class="nav-btn" data-tab="quiz"></button>
             <button type="button" id="nav-study" class="nav-btn" data-tab="study"></button>
         </nav>
+
+        <section id="path-view" class="view-panel active" aria-live="polite">
+            <div class="path-welcome">
+                <div><p class="eyebrow" id="path-eyebrow">YOUR ANATOMY JOURNEY</p><h2 id="path-title">Small lessons. Serious brainpower.</h2><p id="path-subtitle">Build your anatomy knowledge one mission at a time.</p></div>
+                <div class="level-orb"><span>LEVEL</span><strong id="levelVal">1</strong></div>
+            </div>
+            <div class="game-stats">
+                <div class="game-stat xp-stat"><span>⚡ XP</span><strong id="xpVal">0</strong><small id="xpCaption">0 / 50 daily goal</small><div class="mini-track"><i id="dailyProgress"></i></div></div>
+                <div class="game-stat"><span>🔥 STREAK</span><strong id="streakDays">0 days</strong><small id="streakCaption">Keep your momentum</small></div>
+                <div class="game-stat"><span>❤️ ENERGY</span><strong>∞</strong><small id="energyCaption">Practice at your pace</small></div>
+            </div>
+            <div class="path-section-head"><div><p class="eyebrow" id="unitEyebrow">YOUR COURSE</p><h2 id="unitTitle">The body systems</h2></div><span class="unit-count" id="unitCount">0 / 11 complete</span></div>
+            <div class="path-layout"><div class="lesson-path" id="lessonPath"></div><aside class="side-quests"><div class="quest-card"><span class="quest-icon">🎯</span><p class="eyebrow" id="questEyebrow">DAILY QUEST</p><h3 id="questTitle">Earn 50 XP today</h3><p id="questDesc">Complete lessons and quick challenges to fill your progress bar.</p><div class="quest-progress"><i id="questProgress"></i></div><strong id="questValue">0 / 50 XP</strong></div><div class="quest-card badge-card"><span class="quest-icon">🏅</span><p class="eyebrow" id="badgeEyebrow">COLLECTION</p><h3 id="badgeTitle">Milestone badges</h3><div class="badge-row" id="badgeRow"><span>🧠</span><span>🫀</span><span>🦴</span></div><p id="badgeDesc">Complete lessons to unlock your first badge.</p></div><button class="side-practice" id="pathPractice" type="button">⚡ Quick practice</button></aside></div>
+            <article class="lesson-panel" id="lessonPanel" hidden>
+                <div class="lesson-panel-top"><span class="lesson-tag" id="lessonTag">LESSON 01</span><button type="button" class="close-btn" id="lessonClose">×</button></div>
+                <h2 id="lessonTitle"></h2><p class="lesson-intro" id="lessonIntro"></p><div class="lesson-fact"><span>🧬</span><div><strong id="factHeading">Remember this</strong><p id="lessonFact"></p></div></div>
+                <h3 id="organsHeading">Key structures</h3><div class="organ-chips" id="lessonOrgans"></div>
+                <div class="lesson-challenge"><p class="eyebrow" id="challengeEyebrow">QUICK CHECK</p><h3 id="challengeQuestion">Which system are you learning?</h3><div class="challenge-options" id="challengeOptions"></div><p class="challenge-feedback" id="challengeFeedback" aria-live="polite"></p></div>
+                <div class="lesson-footer"><span id="lessonReward">+20 XP</span><button type="button" class="start-btn" id="completeLesson">Complete lesson</button></div>
+            </article>
+        </section>
 
         <section id="quiz-view" class="view-panel active" aria-live="polite">
             <div class="kahoot-container arena-card hud-frame">
